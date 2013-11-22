@@ -1,47 +1,47 @@
-title:            Site Title
+title:            "{{ dev playground }}"
 tagline:          A short tagline
-description:      Describe your website.
+description:      php zendframework zendframework2 zf2 zf1 javascript jquery
 #Comment out url when working locally to resolve base urls correctly
-url:              http://your-site.com
+url:              http://localhost:4000
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           Stefano Corallo
   avatar:         bio-photo.jpg
-  bio:            "Describe your self."
-  email:          your@email.com
+  bio:            "Php zendframework doctrine jQuery and other cool stuff"
+  email:          stefanorg@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         
-  linkedin:       
-  instagram:      
-  lastfm:         
-  tumblr:         
+  twitter:
+  facebook: 
+  github:	https://github.com/stefanorg
+  linkedin:
+  instagram:
+  lastfm:
+  tumblr:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    
+  google_plus: https://plus.google.com/118069744464640098068
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
+google_analytics: UA-747635-7
+google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:        
+bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
+  - title: Chi Sono
     url: /about
-  - title: Articles
+  - title: Blog
     url: /articles
-  - title: Theme Setup
-    url: /theme-setup
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
+#  - title: Theme Setup
+#    url: /theme-setup
+#  - title: Made Mistakes
+#    url: http://mademistakes.com
+#    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/Rome
 future:      true
 pygments:    true
 markdown:    kramdown
@@ -57,7 +57,7 @@ kramdown:
   use_coderay: false
 
   coderay:
-    coderay_line_numbers: 
+    coderay_line_numbers:
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
